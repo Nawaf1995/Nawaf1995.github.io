@@ -50,7 +50,7 @@
 				</main>
 				
 				<div class="container">
-					<form action="colleges.html" onsubmit="return validate()" method="post">
+					<form action="/colleges.html" method="post">
 						<div class="col-md-3">
 							
 							<select class="form-select" aria-label="Default select example">
@@ -66,17 +66,7 @@
 								
 							</select>
 						</div>
-						<script type="text/javascript">
-							function validate(){
-							var opti = document.getElementById('op1').value;
-								console.log(opti)
-							if (opti == 'y') {
-							return location.reload("colleges.html");
-							} else{
-								return location.reload("index.html");
-							}
-						}
-						</script>
+						
 				<div class="col-md-8">
 					<button align="middle" class="btn btn-outline-primary" ">اختار</button>
 				</div>
